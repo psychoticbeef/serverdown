@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034B130E135CAA950047D11A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 034B130D135CAA950047D11A /* Default.png */; };
+		034B1310135CAAEC0047D11A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 034B130F135CAAEC0047D11A /* Default@2x.png */; };
+		03A48EA1135CC033008AB337 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A48E9F135CC033008AB337 /* AppIcon.png */; };
+		03A48EA2135CC033008AB337 /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A48EA0135CC033008AB337 /* AppIcon@2x.png */; };
 		03FFA1C813575A37001337D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FFA1C713575A37001337D9 /* UIKit.framework */; };
 		03FFA1CA13575A37001337D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FFA1C913575A37001337D9 /* Foundation.framework */; };
 		03FFA1CC13575A37001337D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FFA1CB13575A37001337D9 /* CoreGraphics.framework */; };
@@ -16,23 +20,32 @@
 		03FFA1DB13575A39001337D9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FFA1D913575A39001337D9 /* MainWindow.xib */; };
 		03FFA1DE13575A39001337D9 /* ServerDownAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FFA1DD13575A39001337D9 /* ServerDownAppViewController.m */; };
 		03FFA1E113575A39001337D9 /* ServerDownAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FFA1DF13575A39001337D9 /* ServerDownAppViewController.xib */; };
+		03FFA1F613576355001337D9 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FFA1F413576355001337D9 /* Cell.m */; };
+		03FFA1F713576355001337D9 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FFA1F513576355001337D9 /* Cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		034B130D135CAA950047D11A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		034B130F135CAAEC0047D11A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		03A48E9F135CC033008AB337 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		03A48EA0135CC033008AB337 /* AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon@2x.png"; sourceTree = "<group>"; };
 		03FFA1C313575A37001337D9 /* ServerDownApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerDownApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FFA1C713575A37001337D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03FFA1C913575A37001337D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03FFA1CB13575A37001337D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		03FFA1CF13575A38001337D9 /* ServerDownApp-Info.plist */ = {isa = PBXFileReference; path = "ServerDownApp-Info.plist"; sourceTree = "<group>"; };
+		03FFA1CF13575A38001337D9 /* ServerDownApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerDownApp-Info.plist"; sourceTree = "<group>"; };
 		03FFA1D113575A38001337D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		03FFA1D313575A38001337D9 /* ServerDownApp-Prefix.pch */ = {isa = PBXFileReference; path = "ServerDownApp-Prefix.pch"; sourceTree = "<group>"; };
+		03FFA1D313575A38001337D9 /* ServerDownApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerDownApp-Prefix.pch"; sourceTree = "<group>"; };
 		03FFA1D413575A38001337D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03FFA1D613575A39001337D9 /* ServerDownAppAppDelegate.h */ = {isa = PBXFileReference; path = ServerDownAppAppDelegate.h; sourceTree = "<group>"; };
+		03FFA1D613575A39001337D9 /* ServerDownAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerDownAppAppDelegate.h; sourceTree = "<group>"; };
 		03FFA1D713575A39001337D9 /* ServerDownAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerDownAppAppDelegate.m; sourceTree = "<group>"; };
 		03FFA1DA13575A39001337D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		03FFA1DC13575A39001337D9 /* ServerDownAppViewController.h */ = {isa = PBXFileReference; path = ServerDownAppViewController.h; sourceTree = "<group>"; };
+		03FFA1DC13575A39001337D9 /* ServerDownAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerDownAppViewController.h; sourceTree = "<group>"; };
 		03FFA1DD13575A39001337D9 /* ServerDownAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerDownAppViewController.m; sourceTree = "<group>"; };
 		03FFA1E013575A39001337D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ServerDownAppViewController.xib; sourceTree = "<group>"; };
+		03FFA1F313576355001337D9 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = ServerDownApp.xcodeproj/Cell.h; sourceTree = SOURCE_ROOT; };
+		03FFA1F413576355001337D9 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = ServerDownApp.xcodeproj/Cell.m; sourceTree = SOURCE_ROOT; };
+		03FFA1F513576355001337D9 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Cell.xib; path = ServerDownApp.xcodeproj/Cell.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +65,8 @@
 		03FFA1B813575A36001337D9 = {
 			isa = PBXGroup;
 			children = (
+				034B130F135CAAEC0047D11A /* Default@2x.png */,
+				034B130D135CAA950047D11A /* Default.png */,
 				03FFA1CD13575A37001337D9 /* ServerDownApp */,
 				03FFA1C613575A37001337D9 /* Frameworks */,
 				03FFA1C413575A37001337D9 /* Products */,
@@ -79,6 +94,9 @@
 		03FFA1CD13575A37001337D9 /* ServerDownApp */ = {
 			isa = PBXGroup;
 			children = (
+				03FFA1F313576355001337D9 /* Cell.h */,
+				03FFA1F413576355001337D9 /* Cell.m */,
+				03FFA1F513576355001337D9 /* Cell.xib */,
 				03FFA1D613575A39001337D9 /* ServerDownAppAppDelegate.h */,
 				03FFA1D713575A39001337D9 /* ServerDownAppAppDelegate.m */,
 				03FFA1D913575A39001337D9 /* MainWindow.xib */,
@@ -93,6 +111,8 @@
 		03FFA1CE13575A38001337D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				03A48E9F135CC033008AB337 /* AppIcon.png */,
+				03A48EA0135CC033008AB337 /* AppIcon@2x.png */,
 				03FFA1CF13575A38001337D9 /* ServerDownApp-Info.plist */,
 				03FFA1D013575A38001337D9 /* InfoPlist.strings */,
 				03FFA1D313575A38001337D9 /* ServerDownApp-Prefix.pch */,
@@ -151,6 +171,11 @@
 				03FFA1D213575A38001337D9 /* InfoPlist.strings in Resources */,
 				03FFA1DB13575A39001337D9 /* MainWindow.xib in Resources */,
 				03FFA1E113575A39001337D9 /* ServerDownAppViewController.xib in Resources */,
+				03FFA1F713576355001337D9 /* Cell.xib in Resources */,
+				034B130E135CAA950047D11A /* Default.png in Resources */,
+				034B1310135CAAEC0047D11A /* Default@2x.png in Resources */,
+				03A48EA1135CC033008AB337 /* AppIcon.png in Resources */,
+				03A48EA2135CC033008AB337 /* AppIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +189,7 @@
 				03FFA1D513575A38001337D9 /* main.m in Sources */,
 				03FFA1D813575A39001337D9 /* ServerDownAppAppDelegate.m in Sources */,
 				03FFA1DE13575A39001337D9 /* ServerDownAppViewController.m in Sources */,
+				03FFA1F613576355001337D9 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +235,10 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LLVM_LTO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -223,8 +252,11 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LLVM_LTO = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -238,6 +270,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServerDownApp/ServerDownApp-Prefix.pch";
 				INFOPLIST_FILE = "ServerDownApp/ServerDownApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +284,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServerDownApp/ServerDownApp-Prefix.pch";
 				INFOPLIST_FILE = "ServerDownApp/ServerDownApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -276,6 +310,7 @@
 				03FFA1E613575A39001337D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
